@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
+<title>Dylan Jonker | The Ascent</title>
+<meta name="description" content="Dylan Jonker's CV as a 3D climb. Technical operator across data, web and e-commerce. Climber, BJJ fan, relocating to Tbilisi in January 2027." />
+<meta name="theme-color" content="#0e1424" />
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="loader"><div class="lt">DYLAN JONKER</div><div class="ls">TYING IN<span id="lp">0%</span></div><div class="lb"><i id="lbar"></i></div></div>
+
+<div id="hud">
+  <div id="brand"><b>DYLAN JONKER</b><span>TECHNICAL OPERATOR · PRETORIA TO TBILISI</span></div>
+  <div id="btns">
+    <button id="bCv">CLASSIC CV</button>
+    <button id="bMute">SOUND</button>
+  </div>
+  <div id="topo"><div id="topoT">ROUTE MAP</div><div id="topoLine"></div><div id="topoList"></div><div id="topoMe"></div></div>
+  <div id="alt"><span id="altN">0</span><small>M</small></div>
+  <div id="rack"><div id="rackT">RACK <span id="rackN">0</span>/<span id="rackM">0</span></div><div id="rackList"></div></div>
+  <div id="chalkW"><div id="chalkTop"><span id="chalkL">CHALK</span><b id="chalkP">100</b><span id="chalkS">STEADY</span></div><div id="chalk"><i id="chalkB"></i><u></u></div><div id="draws">QUICKDRAWS <b id="drawsN">10</b>/10</div></div>
+  <div id="vig"></div>
+  <div id="hint"></div>
+  <div id="toast"></div>
+  <div id="cta"><a id="aMail" target="_blank" rel="noopener">EMAIL</a><a id="aWa" target="_blank" rel="noopener">WHATSAPP</a><a id="aLi" target="_blank" rel="noopener">LINKEDIN</a></div>
+  <div id="pad">
+    <div id="stick"><i id="knob"></i></div>
+    <div id="acts"><button id="bClip">CLIP</button><button id="bChalk">CHALK</button><button id="bDyno">DYNO</button><button id="bRoll">ROLL</button></div>
+  </div>
+</div>
+
+<div id="cv" hidden>
+  <div class="cvBox">
+    <button id="cvX" aria-label="Close">CLOSE</button>
+    <h1>Dylan Jonker</h1>
+    <p class="meta">Pretoria, South Africa (relocating to Tbilisi, Georgia in January 2027) · <a id="cvMail"></a> · <a id="cvWa"></a> · Remote, available on UK and European hours · <a id="cvLi"></a></p>
+    <h2>Summary</h2><p id="cvSum"></p>
+    <h2>Experience</h2><div id="cvExp"></div>
+    <h2>Skills</h2><div id="cvSk"></div>
+    <h2>Education and languages</h2><div id="cvEdu"></div>
+  </div>
+</div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
